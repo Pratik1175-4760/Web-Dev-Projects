@@ -26,7 +26,16 @@ LeetMetrix is a simple and modern web tool that fetches real-time **LeetCode sta
 ---
 
 ## 📸 Preview  
-Download the uploaded video (raw data)
+<img src="https://github.com/user-attachments/assets/113b926c-71ea-42e1-9b8e-4c35b520ad2d" width="700" />
+
+<img src="https://github.com/user-attachments/assets/c9faa5fb-a67e-4414-9bc0-712345ad0f91" width="600" />
+
+<img src="https://github.com/user-attachments/assets/6cf05b22-2f89-4b95-9dcc-4fcec0d50fe1" width="500" />
+
+
+<img src="https://github.com/user-attachments/assets/2ee25372-c314-426c-a0c3-545e585c6a92" width="400" />
+
+
 
 ---
 
