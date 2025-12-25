@@ -1,0 +1,21 @@
+/* App.css */
+@import "tailwindcss";
+
+/* Root wrapper */
+#root {
+  min-height: 100vh;
+}
+
+/* Optional utility if you want centered containers */
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Smooth animations */
+* {
+  transition-property: background-color, border-color, color, transform, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}

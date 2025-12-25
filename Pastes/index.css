@@ -1,0 +1,94 @@
+/* index.css */
+
+/* ---------- ROOT VARIABLES ---------- */
+:root {
+  --bg-main: linear-gradient(
+    135deg,
+    #020617,   /* slate-950 */
+    #0f172a,   /* slate-900 */
+    #0c4a6e    /* cyan-900 */
+  );
+
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --accent: #22d3ee; /* cyan-400 */
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue",
+    Arial, sans-serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.92);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- BODY ---------- */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg-main);
+}
+
+/* ---------- LINKS ---------- */
+a {
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+/* ---------- HEADINGS ---------- */
+h1, h2, h3, h4 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- LEGACY CLASSES (USED IN YOUR PASTES) ---------- */
+.headings {
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(14px);
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* ---------- INPUT OVERRIDE (if used anywhere) ---------- */
+.inputhome {
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  color: white;
+}
+
+/* ---------- BUTTON BASE (Tailwind buttons override this anyway) ---------- */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: transform 0.15s ease, background 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
