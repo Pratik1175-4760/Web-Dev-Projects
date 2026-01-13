@@ -46,15 +46,6 @@ This repository contains multiple projects built using modern frontend and backe
 
 ---
 
-## 🚧 Future Plan
-
-* Add more frontend and **backend projects**.
-* Convert some projects into **full-stack apps**.
-* Add **deployment links** for live previews.
-* Create **UI/UX improvements**.
-
----
-
 ## 🤝 Contribution
 
 Suggestions are **welcome**! Feel free to **open issues** or propose improvements via pull requests.
